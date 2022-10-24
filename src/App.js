@@ -4,8 +4,8 @@ import Login from './components/Login';
 
 function App() {
   const adminUser = {
-    email: "juancito@gmail.com",
-    password: "juancito75"
+    email: "nomade@nomade.com",
+    password: "pruebita1212"
   }
   const [user, setUser] = useState({name: "", email: ""});
   const [error, setError] = useState("");
@@ -33,7 +33,8 @@ function App() {
     <div className="App">
       {(user.email !== "") ? (
        <div className="welcome">
-          <h2>Welcome, <span>{user.name}</span></h2>
+          <h2>Welcome <span>{user.name}</span></h2>
+          <p className='parraf'>Sistema</p>
           <button onClick={Logout}>Logout</button>
         </div>
          ) : (

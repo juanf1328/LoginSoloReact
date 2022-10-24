@@ -22,8 +22,7 @@ input, button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right, #fc354c, #0abfbc);
-}
+    background: linear-gradient(to top, #654ea3, #eaafc8);}
 
 form{
     display: block;
@@ -40,19 +39,18 @@ form:after{
     right: -5px;
     bottom: -5px;
     z-index: 1;
-    background-image: linear-gradient(to bottom right, #FFCE00, #FE4880) ;
-}
+    background: linear-gradient(to bottom, #654ea367, #eaafc894);}
 
 form .form-inner{
     position: relative;
     display: block;
-    background-color: #fff;
+    background-color: #f1c8d8e7;
     padding: 30px;
     z-index: 2;
 }
 
 form .form-inner h2{
-    color: #888;
+    color: rgb(104, 96, 96);
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -66,14 +64,15 @@ form .form-inner .form-group{
 
 form .form-inner .form-group label{
     display: block;
-    color: #666;
+    color: rgb(99, 96, 96);
     font-size: 12px;
     margin-bottom: 5px;
     transition: 0.4s;
 }
 
 .form-inner .form-group:focus-within label{
-    color: #FE4880;
+    color: #7e60ce;
+    font-size: 13px;
 }
 
 form .form-inner .form-group input{
@@ -111,17 +110,25 @@ form .form-inner input[type="submit"]:hover, .welcome button:hover{
     max-width: 480px;
     background-color: #fff;
     padding: 15px 30px;
+    cursor: default;
 }
 
 .welcome h2{
-    color: #888;
+    color: #654ea3;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 50px;
     margin-bottom: 30px;
+    cursor: default;
 }
 
 .welcome h2 span{
-    color: #FE4880;
-    font-weight: 700;
+    color: #f07ca8;
+    font-weight: 700px;
+}
+.parraf{
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 400px;
+    font-size: 20px;
 }
 
